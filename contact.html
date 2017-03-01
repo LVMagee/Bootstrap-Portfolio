@@ -1,9 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+
+	<title>Btstrp LV Magee</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylep.css">
+
 </head>
+
 <body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand" href="#">LV Magee</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="wrapper">
+	<div class="container-fluid bg-3 text-center">  
+	<div class="row">
+		<div class="col-md-4">
+		<div id="words">			
+
+		<h2>Contact Me</h2>
+
+			<div id="form-main">
+			  <div id="form-div">
+			    <form class="form" id="form1">
+			      
+			      <p class="name">
+			        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+			      </p>
+			      
+			      <p class="email">
+			        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+			      </p>
+			      
+			      <p class="text">
+			        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+			      </p>
+	
+			      <div class="submit">
+			        <input type="submit" value="SEND" id="button-blue"/>
+			        <a href="mailto:lvmagee@gmail.com"></a>
+			        <div class="ease"></div>
+			      </div>
+			    </form>
+			  </div>			
+		</div>
+	<!-- </div> -->
+			<div class="col-md-2"></div>
+		<div class="col-md-4">
+		<nav>
+			<h3>Connect with Me</h3>
+			<ul>
+			<a href="https://github.com/" target="_blank"><img src="assets/images/git.png"></a>
+			<a href="https://www.linkedin.com/in/lisa-magee-06585a65/" target="_blank"><img src="assets/images/link.png"></a>
+			<a href="http://stackoverflow.com" target="_blank"><img src="assets/images/stack.png"></a>
+			</ul>
+		</nav>
+		</div>
+	</div>
+	</div>
+	</div>
+
+	
+	
+<footer class="container-fluid bg-4 text-center">
+  <p>©Copyright 2017 LV Magee</p> 
+</footer>
 
 </body>
 </html>

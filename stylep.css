@@ -44,10 +44,11 @@ h3 {
 footer {
 	clear: both;
 	background-color: #8ACBC7;
-	padding: 20px;
+	padding: 30px;
 	text-align: center;
 	font-size: 12px;
-	width: 1000px;
+	/*width: 1000px;*/
+
 
 }/*
 
@@ -72,10 +73,10 @@ footer {
 	margin-left: 10px;
 	margin-right: 0;
 	font-size: 15px;
-	line-height: 24px;
-	padding: 20px;
-	width: 500px;
-	float: left;
+	/*line-height: 24px;*/
+	/*padding: 20px;*/
+	/*width: 500px;*/
+	/*float: left;*/
 }
 
 #words img {
@@ -85,6 +86,12 @@ footer {
 	padding: 5px;
 	border: .5px solid black;
 	background: white;
+}
+
+#words nav {
+	border-style: none;
+
+
 }
 
 Pasted form code
@@ -135,7 +142,7 @@ Pasted form code
 	border:#30aed6 solid 3px;
 }
 
- Icons ---------------------------------- 
+Icons ---------------------------------- 
 #name{
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
 	background-size: 30px 30px;

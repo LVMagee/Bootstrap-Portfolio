@@ -1,40 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>LVMAGEE</title>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-
+	<title>Btstrp LV Magee</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<meta name="viewport" content="initial-scale=1.0">
-
 </head>
+
 <body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand" href="#">LV Magee</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-<div id="wrapper">
 
-		<nav class="navbar navbar-inverse">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <a class="navbar-brand" href="index.html">LV Magee</a>
-		    </div>
-		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="index.html">About</a></li>
-		      <!--<li><a href="index.html">About</a></li>-->
-		      <li><a href="portfolio.html">Portfolio</a></li>
-		      <li><a href="contact.html">Contact</a></li>
-		    </ul>
-		  </div>
+	<div class="wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+		<div id="words">
+			<h2>About Me</h2>
+			<img src="assets/images/me2.jpg">
+			<p>While the world that surrounds us provides constant wonder for me, I have found my passions in scuba diving and full stack web development. At first glance the two may seem distant and unrelated, but I assure you they are both amazing frontiers full of infinite possiblities. I love exploring them both discovering their hidden secrets and potentitals. </p>
+			<p>This site is dedicated to my love of code and web development.  I have all of my past, present, and even some future projects in these pages. Please look through and see what catches your attention.</p>
+		</div>
+		</div>
+			<div class="col-md-2"></div>
+		<div class="col-md-4">
+		<nav>
+			<h3>Connect with Me</h3>
+			<ul>
+			<a href="https://github.com/" target="_blank"><img src="assets/images/git.png"></a>
+			<a href="https://www.linkedin.com/in/lisa-magee-06585a65/" target="_blank"><img src="assets/images/link.png"></a>
+			<a href="http://stackoverflow.com" target="_blank"><img src="assets/images/stack.png"></a>
+			</ul>
 		</nav>
-</div>		
+		</div>
+	</div>
+	</div>
+	</div>
+
+	
+	
+<footer class="container-fluid bg-4 text-center">
+  <p>©Copyright 2017 LV Magee</p> 
+</footer>
 
 </body>
 </html>
